@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "89488474940",
+    "firebase_url": "https://food-palace-b88a9.firebaseio.com",
+    "project_id": "food-palace-b88a9",
+    "storage_bucket": "food-palace-b88a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89488474940:android:2bdbdde23fc23f08231439",
+        "android_client_info": {
+          "package_name": "com.example.foodpalace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89488474940-j5uq9s63aao7fecils573gn0gptgvrkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeYNQUi6Bm90wClmtKGBq7rYknIBBFos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89488474940-j5uq9s63aao7fecils573gn0gptgvrkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
