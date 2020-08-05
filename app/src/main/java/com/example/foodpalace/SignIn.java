@@ -59,6 +59,7 @@ public class SignIn extends AppCompatActivity {
                             //Get User Information
                             mDialog.dismiss();
                             User user = snapshot.child(edtPhone.getText().toString()).getValue(User.class);
+                            assert user != null;
                             if (user.getPassword().equals(edtPassword.getText().toString())) {
                                 Toast.makeText(SignIn.this, "Sign in successfully !", Toast.LENGTH_SHORT).show();
                             } else {
@@ -68,7 +69,7 @@ public class SignIn extends AppCompatActivity {
                         else
                         {
                             mDialog.dismiss();
-                            Toast.makeText(SignIn.this, "User not exist in Database", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignIn.this, "User does not exist", Toast.LENGTH_SHORT).show();
                         }
                     }
                     @Override
